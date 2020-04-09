@@ -22,7 +22,8 @@ app.post('*', (req, res) => {
     res.send(response)
   } else if (text == '1') {
     // Business logic for first level response
-    let response = `END Enter your phone number`
+    let response = `CON Enter your phone number`
+    let response =  `END`
     res.send(response)
   } else if (text == '2') {
     // This is a second level response where the user selected 1 in the first instance    
