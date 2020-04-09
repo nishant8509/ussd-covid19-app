@@ -1,0 +1,20 @@
+{
+  "name": "ussd_server",
+  "version": "1.0.0",
+  "description": "A sample USSD app with AfricasTaslking.com service",
+  "main": "covid19-ussd-app.js",
+  "scripts": {
+    "start": "node covid19-ussd-app.js"
+  },
+  "keywords": [
+    "USSD",
+    "NODE"
+  ],
+  "author": "nishant <nishantmishra9910@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
