@@ -16,24 +16,7 @@ app.post('*', (req, res) => {
   let {sessionId, serviceCode, phoneNumber, text} = req.body
   if (text == '') {
     // This is the first request. Note how we start the response with CON
-    let response = `CON Welcome to COVID19 USSD Help Desk
-    1. New User Registration
-    2. Login`
-    res.send(response)
-  } else if (text == '1') {
-    // Business logic for first level response
-    let response = `CON Enter your phone number`
-    let response =  `END`
-    res.send(response)
-  } else if (text == '2') {
-    // This is a second level response where the user selected 1 in the first instance    
-    // This is a terminal request. Note how we start the response with END
-    let response = `CON Enter your Phone number`
-    res.send(response)
-  } else if (text == '9910814601') {
-    let response = `CON You are successfully logged-in
-    1. enter 1 for Main Menue`
-  } else if (text == '1') {
+    let response = `CON Welcome to COVID19 USSD Help Desk`
     let response = `CON Select Your District
     1. East
     2. West
