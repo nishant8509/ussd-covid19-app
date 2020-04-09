@@ -11,43 +11,12 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.get('*', (req, res) => {
   res.send('covid19 USSD application developed by Nishant Mishra <nishantmishra9910@gmail.com>')
 })
-var welcomeMsg = `CON Hello and welcome to Foodigo.
-Have your food delivered to you fast and hot!
-Please find our menu
-Enter your name to continue`
 
-const orderDetails = {
-    name: "",
-    description: "",
-    address: "",
-    telephone: "",
-    open: true
-}
 app.post('*', (req, res) => {
   let {sessionId, serviceCode, phoneNumber, text} = req.body
-  const textValue = text.split('*').length
   if (text == '') {
     // This is the first request. Note how we start the response with CON
-     let response = `CON Hello and welcome to Foodigo.
-Have your food delivered to you fast and hot!
-Please find our menu
-Enter your name to continue`
-    }else if(textValue === 1){
-         let response = "CON What do you want to eat?"
-        orderDetails.name = text;
-        res.send(response)
-    }else if(textValue === 2){
-         let response = "CON Where do we deliver it?"
-        orderDetails.description = text.split('*')[1];
-        res.send(response)
-    }else if(textValue === 3){
-         let response = "CON What's your telephone number?"
-        orderDetails.address = text.split('*')[2];
-        res.send(response)
-    }else if(textValue === 4){
-    let response = `CON What would you want to check
-    1. My Account
-    2. My phone number`
+    let response = `CON What would you want to check`
     res.send(response)
   } else if (text == '1') {
     // Business logic for first level response
