@@ -18,11 +18,9 @@ app.post('*', (req, res) => {
     // This is the first request. Note how we start the response with CON
     let response = `CON What would you want to check`
     res.send(response)
-  } else if (text == '1') {
+  } else if (text == '') {
     // Business logic for first level response
-    let response = `CON Choose account information you want to view
-    1. Account number
-    2. Account balance`
+    let response = `CON Choose account information you want to view`
     res.send(response)
   } else if (text == '2') {
     // Business logic for first level response
