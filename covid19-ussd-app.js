@@ -69,7 +69,7 @@ app.post('*', (req, res) => {
   } else if (text == '1*1*4') {
     let DM = '7827075165'
     let response = `END DM Office help-line no. for your distric are 
-    1. Medical Store : ${medStore}`
+    1. Medical Store : ${DM}`
   } else if (text == '1*2') {
     let response = `CON The Useful help-line nos. for you distric are
     1. health-care helpline
@@ -101,7 +101,7 @@ app.post('*', (req, res) => {
   } else if (text == '1*2*4') {
     let DM = '7827075165'
     let response = `END DM Office help-line no. for your distric are 
-    1. Medical Store : ${medStore}`
+    1. Medical Store : ${DM}`
   } else if (text == '1*3') {
     let response = `CON The Useful help-line nos. for you distric are
     1. health-care helpline
@@ -133,7 +133,7 @@ app.post('*', (req, res) => {
   } else if (text == '1*3*4') {
     let DM = '7827075165'
     let response = `END DM Office help-line no. for your distric are 
-    1. Medical Store : ${medStore}`
+    1. Medical Store : ${DM}`
   } else if (text == '1*4') {
     let response = `CON The Useful help-line nos. for you distric are
     1. health-care helpline
@@ -165,7 +165,7 @@ app.post('*', (req, res) => {
   } else if (text == '1*4*4') {
     let DM = '7827075165'
     let response = `END DM Office help-line no. for your distric are 
-    1. Medical Store : ${medStore}`
+    1. Medical Store : ${DM}`
   }
   else {
     res.status(400).send('Bad request!')
