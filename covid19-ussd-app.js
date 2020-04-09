@@ -22,18 +22,9 @@ app.post('*', (req, res) => {
     res.send(response)
   } else if (text == '1') {
     // Business logic for first level response
-    let response = `CON Enter your Name`
-    res.send(response)
-  } else if (text == 'nishant mishra') {
-    // Business logic for first level response
     let response = `END Enter your phone number`
     res.send(response)
   } else if (text == '2') {
-    // Business logic for first level respons
-    // This is a terminal request. Note how we start the response with END
-    let response = `CON Enter your name`
-    res.send(response)
-  } else if (text == 'nishant mishra') {
     // This is a second level response where the user selected 1 in the first instance    
     // This is a terminal request. Note how we start the response with END
     let response = `CON Enter your Phone number`
