@@ -52,6 +52,7 @@ END: Means the final menu and will trigger session termination i.e session is EN
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/code-run.jpg)
 - After entering the ok buttor, the firt page of our app will be like image below
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/welcome.jpg)
+
 -the whole data flow diagram of our app is given below
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/flow-diagram.png)
 
