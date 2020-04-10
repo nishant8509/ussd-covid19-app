@@ -21,7 +21,7 @@ so providing smartphone apps to all the citizens of the country becomes difficul
 ## Process Flow
 
 Below is an illustration on how the USSD service works
-![alt text]
+![alt text]https://github.com/nishant8509/ussd-covid19-app/blob/master/process.jpg
 
 
 
