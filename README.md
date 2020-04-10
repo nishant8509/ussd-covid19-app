@@ -22,7 +22,23 @@ so providing smartphone apps to all the citizens of the country becomes difficul
 
 Below is an illustration on how the USSD service works
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/process.jpg)
+Processing USSD requests using our API is very easy once your account is set up. In particular, you will need to:
 
+- Register a service code with us.
+- Register a URL that we can call whenever we get a request from a client coming into our system.
+Once you register your callback URL, any requests that we receive belonging to you will trigger a callback that sends the request data to that URL using `HTTP post`.
+
+### API Parameters
+
+- The API makes a HTTP POST request to your server with parameters shown below. This request is made when the user dials a USSD code and every time they respond to a menu.
+
+```$sessionId: This generates a unique value when the session starts and sent every time a mobile subscriber response has been received.
+$serviceCode: This refer to your USSD code
+$text: This shows the user input. which is an empty string in the first notification of a session which after that concatenates all the user input within the session until the session ends.
+$response: This hold the answer to the user input.
+echo: Prints out the response for the user to read.
+CON: It means an intermediate menu Or that the session is CONtinuing
+END: Means the final menu and will trigger session termination i.e session is ENDing.```
 
 
 
