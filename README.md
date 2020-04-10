@@ -44,14 +44,16 @@ END: Means the final menu and will trigger session termination i.e session is EN
 ## Data Flow Diagram
 
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/flow.png)
-
+- Log into the ussd simulator
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/simulator-login.jpg)
-
+- after loggin in the first page of the simulator will be like below diagram, select USSD here
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/simulator-page.jpg)
-
+- Enter our project USSD code that is *384*059#
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/code-run.jpg)
-
+- After entering the ok buttor, the firt page of our app will be like image below
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/welcome.jpg)
+-the whole data flow diagram of our app is given below
+![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/flow-diagram.jpg)
 
 
 
