@@ -45,9 +45,9 @@ END: Means the final menu and will trigger session termination i.e session is EN
 
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/flow.png)
 
-![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/simulator login.jpg)
+![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/simulator-login.jpg)
 
-![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/simulator page.jpg)
+![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/simulator-page.jpg)
 
 ![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/code-run.jpg)
 
