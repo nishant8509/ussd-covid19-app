@@ -38,8 +38,12 @@ $text: This shows the user input. which is an empty string in the first notifica
 $response: This hold the answer to the user input.
 echo: Prints out the response for the user to read.
 CON: It means an intermediate menu Or that the session is CONtinuing
-END: Means the final menu and will trigger session termination i.e session is ENDing.```
+END: Means the final menu and will trigger session termination i.e session is ENDing.
+```
 
+## Data Flow Diagram
+
+![alt text](https://github.com/nishant8509/ussd-covid19-app/blob/master/flow.png)
 
 
 
